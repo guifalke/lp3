@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/main.css"/>
+        <h:outputStylesheet name="./css/bootstrap.min.css"/>
+        <h:outputStylesheet name="./css/font-awesome.min.css"/>
+        <h:outputStylesheet name="./css/prettyPhoto.css"/>
+        <h:outputStylesheet name="./css/price-range.css"/>
+        <h:outputStylesheet name="./css/responsive.css"/>
+        <h:graphicImage name="images/ico/favicon.ico">
+        <title>
+            <ui:insert name="title">Facelets Template</ui:insert>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </h:head>
+    <h:body>
+        <div id="top">
+            <ui:insert name="top">
+                
+            </ui:insert>
+        </div>
+        <div id="content" class="center_content">
+            <ui:insert name="content">Content</ui:insert>
+        </div>
+        <div id="bottom">
+            <ui:insert name="bottom">Bottom</ui:insert>
+        </div>
+    <h:outputScript library="js" name="./js/jquery.js" />    
+    <h:outputScript library="js" name="./js/bootstrap.min.js" />
+    <h:outputScript library="js" name="./js/price-range.js" />
+    <h:outputScript library="js" name="./js/jquery.scrollUp.min.js" />
+    <h:outputScript library="js" name="./js/jquery.prettyPhoto.js" />
+    <h:outputScript library="js" name="./js/main.js" />
+    </h:body>
+</html>
